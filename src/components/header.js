@@ -11,7 +11,7 @@ const Header = (props) => {
             <Text style={textStyle}>{props.headerText}</Text>
         </View>
     )
-}
+};
 
 const styles = {
     viewStyle: {
