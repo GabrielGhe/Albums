@@ -1,7 +1,7 @@
 'use strict'
 
 import React, { Component } from 'react';
-import { View } from 'react-native';
+import { ScrollView } from 'react-native';
 import AlbumDetail from './AlbumDetail';
 import axios from 'axios';
 
@@ -22,9 +22,9 @@ class AlbumList extends Component {
 
     render() {
         return (
-            <View>
+            <ScrollView>
                 {this.renderAlbums()}
-            </View>
+            </ScrollView>
         );
     }
 }
